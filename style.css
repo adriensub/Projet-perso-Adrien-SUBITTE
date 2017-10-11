@@ -1,0 +1,101 @@
+body{
+  background: rgb(245,245,245);
+  color: green;
+  font-size: 18px;
+  font-family: Helvetica;
+  margin: 0px;
+}
+h1{
+  font-family: Courier;
+  color: red;
+  font-weight: lighter;
+  font-size: 25px;
+}
+h2 {
+  font-family: 'Raleway', sans-serif;
+  color: #ee8434;
+  font-weight: lighter;
+  font-size: 50px;
+}
+a {
+  color: yellow;
+}
+a:hover {
+  text-decoration: none;
+  color: purple;
+}
+
+#banner{
+  text-align: center;
+  background-image: url("https://images.pexels.com/photos/6318/smartphone-technology-music-headphones.jpg?w=940&h=650&auto=compress&cs=tinysrgb");
+  background-size: cover;
+  padding: 150px;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+  margin: 0 auto;
+}
+#banner h1 {
+  color: white;
+  font-size: 50px;
+}
+#banner p {
+  color: white;
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+}
+#footer{
+  padding: 30px;
+  background: rgb(30, 30, 30);
+  color: lightgrey;
+}
+.card{
+  padding: 50px;
+  font-weight: lighter;
+  text-align: center;
+  background-image: url("https://unsplash.it/1300/600?random");
+  margin: 10px;
+}
+
+.logo{
+  border-radius:50%;
+  border: 5px solid black;
+  background-color: white;
+}
+
+#jazz{
+  background-image: url("https://images.pexels.com/photos/164934/pexels-photo-164934.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
+  background-size: cover;
+  margin: 10px;
+}
+
+#classique{
+  background-image: url("https://images.pexels.com/photos/586415/pexels-photo-586415.jpeg?h=350&auto=compress&cs=tinysrgb");
+  background-size: cover;
+  margin :10px;
+}
+
+#rockindie{
+  background-image: url("https://images.pexels.com/photos/590137/pexels-photo-590137.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
+  background-size: cover;
+  margin: 10px;
+}
+
+#electro{
+  background-image: url("https://images.pexels.com/photos/63703/pexels-photo-63703.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
+  background-size: cover;
+  margin: 10px;
+}
+
+#pop{
+  background-image: url("https://images.pexels.com/photos/442540/pexels-photo-442540.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
+  background-size: cover;
+  margin: 10px;
+}
+
+#soul{
+  background-image: url("https://images.pexels.com/photos/379962/pexels-photo-379962.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
+  background-size: cover;
+  margin: 10px;
+}
+
