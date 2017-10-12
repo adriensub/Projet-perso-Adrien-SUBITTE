@@ -1,6 +1,6 @@
 body{
   background: rgb(245,245,245);
-  color: green;
+  color: #cccccc;
   font-size: 18px;
   font-family: Helvetica;
   margin: 0px;
@@ -13,12 +13,13 @@ h1{
 }
 h2 {
   font-family: 'Raleway', sans-serif;
+  background-color: rgba(204, 204, 204, 0.5);
   color: #ee8434;
   font-weight: lighter;
   font-size: 50px;
 }
 a {
-  color: yellow;
+  color: white;
 }
 a:hover {
   text-decoration: none;
@@ -39,22 +40,41 @@ a:hover {
   font-size: 50px;
 }
 #banner p {
-  color: white;
+  color: #f29e4c;
   opacity: 0.8;
   font-size: 30px;
   font-weight: lighter;
 }
+
+#banner a {
+  padding:4px;
+  border: 5px solid black;
+  background-color: #f29e4c;
+  border-radius:5px;
+  border-color: #d56f3e
+}
+
 #footer{
   padding: 30px;
   background: rgb(30, 30, 30);
   color: lightgrey;
 }
+
+#footer a{
+  color: white;
+  font-size: 30px;
+}
+
+#footer a:hover{
+  color: grey;
+}
+
 .card{
   padding: 50px;
   font-weight: lighter;
   text-align: center;
-  background-image: url("https://unsplash.it/1300/600?random");
   margin: 10px;
+  border-radius:20px;
 }
 
 .logo{
@@ -67,6 +87,7 @@ a:hover {
   background-image: url("https://images.pexels.com/photos/164934/pexels-photo-164934.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
   background-size: cover;
   margin: 10px;
+  background-color: rgba(204, 204, 204, 0.5);
 }
 
 #classique{
@@ -99,3 +120,26 @@ a:hover {
   margin: 10px;
 }
 
+#jazz h2{
+  font-family: 'Modak', cursive;
+}
+
+#classique h2{
+  font-family: 'Source Serif Pro', serif;
+}
+
+#rockindie h2{
+  font-family: 'Satisfy', cursive;
+}
+
+#pop h2{
+  font-family: 'Permanent Marker', cursive;
+}
+
+#electro h2{
+  font-family: 'Audiowide', cursive;
+}
+
+#soul h2{
+  font-family: 'Luckiest Guy', cursive;
+}
