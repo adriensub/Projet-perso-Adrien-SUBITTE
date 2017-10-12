@@ -1,9 +1,10 @@
 body{
   background: rgb(245,245,245);
-  color: #cccccc;
+  color: white;
   font-size: 18px;
   font-family: Helvetica;
   margin: 0px;
+  text-shadow: 0 0 2px #000000;
 }
 h1{
   font-family: Courier;
@@ -87,7 +88,6 @@ a:hover {
   background-image: url("https://images.pexels.com/photos/164934/pexels-photo-164934.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
   background-size: cover;
   margin: 10px;
-  background-color: rgba(204, 204, 204, 0.5);
 }
 
 #classique{
@@ -142,4 +142,8 @@ a:hover {
 
 #soul h2{
   font-family: 'Luckiest Guy', cursive;
+}
+
+.liste{
+  text-align: left;
 }
