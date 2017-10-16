@@ -45,6 +45,7 @@ a:hover {
   opacity: 0.8;
   font-size: 30px;
   font-weight: lighter;
+  text-shadow: 0 0 2px #000000;
 }
 
 #banner a {
@@ -118,6 +119,12 @@ a:hover {
   background-image: url("https://images.pexels.com/photos/379962/pexels-photo-379962.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
   background-size: cover;
   margin: 10px;
+}
+
+#questionnaire{
+  background-size: cover;
+  margin: 0px;
+  padding-top: 30px;
 }
 
 #jazz h2{
